@@ -28,6 +28,7 @@ li a {
 
 li a:hover{
   color: white;
+
 }
 
 li button {
@@ -43,6 +44,7 @@ li button:hover{
   background-color: white;
   color: #3A1111;
   transition: background-color 0.3s, color 0.3s; /*add transition for smooth effect*/
+  cursor: pointer;
 }
 
 p {
@@ -107,6 +109,7 @@ main p{
   box-shadow: 0 0 10px #3A1111;
   border: 2px solid #3A1111; 
   transition: box-shadow 0.3s; /*add transition for smooth effect*/
+  cursor: pointer;
 }
 
 .input-icon i {
@@ -132,6 +135,7 @@ main p{
   background-color: white;
   color:#3A1111;
   transition: background-color 0.3s, color 0.3s; /*add transition for smooth effect*/
+  cursor: pointer;
 }
 
 .button-section .pickup {
@@ -147,6 +151,7 @@ main p{
   background-color: #3A1111;
   color: white;
   transition: background-color 0.3s, color 0.3s; /*add transition for smooth effect*/
+  cursor: pointer;
 }
 
 
