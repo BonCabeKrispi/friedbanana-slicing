@@ -96,13 +96,14 @@ main p{
 }
 
 .input-icon input {
-  width: 100%;
+  width: 90%;
   height: 60px;
   border-radius: 50px;
-  padding: 0 0 0 30px; /* Add space for the icon and box */
-  margin: 40px 0 20px 0;
+  padding: 0 50px 0 30px; /* Add space for the icon and box */
+  margin: 40px 30px 20px 0;
   font-size: 16px;
   border: 2px solid #3A1111;
+  
 }
 
 .input-icon input:hover{
@@ -114,12 +115,13 @@ main p{
 
 .input-icon i {
   position: absolute; 
-  right: -5px; /* Adjust this value to position the icon */
+  right: -3px; /* Adjust this value to position the icon */
   top: 57%; /* Center the icon vertically */
   transform: translateY(-50%); /* Center the icon vertically */
   font-size: 24px;
   color: #3A1111;
   pointer-events: none; /* So clicks go to the input */
+  
 }
 
 .button-section .send {
